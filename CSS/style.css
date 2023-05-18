@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.display{
+    display: none;
+}
+header {
+width: 90%;
+display: flex;
+justify-content: space-between;
+margin-left: 5%;
+padding: 20px 10px;
+}
+.logo {
+width: 20%;
+text-align: center;
+margin-top: 10px;
+padding: 5px;
+}
+.menu {
+width: 50%;
+}
+.menu ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+font-family: Candara Light;
+font-weight: bold;
+}
+.menu ul li:hover {
+color: grey;
+text-decoration: underline;
+}
+.banner {
+text-align: center;
+}
+
+.banner_details {
+width: 60%;
+margin-left: 20%;
+padding: 20px 0;
+}
+.details_text h4 {
+margin: 20px 5px;
+padding: 5px;
+}
+.details_text h1 {
+margin: 20px 5px;
+padding: 5px;
+font-family: 'Playfair Display', serif;
+}
+.details_text p {
+margin: 20px 5px;
+padding: 5px;
+}
+.details_text h5 {
+margin: 20px 5px;
+padding: 5px;
+}
+/* card design */
+.card {
+width: 60%;
+margin-left: 20%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.card div {
+width: 49% 
+}
+.card_div img{ 
+width:100%;
+box-shadow: 7px 5px 5px 0px #a19e9e;
+border-radius: 5px;
+}
+.card_div h5 { 
+margin: 25px 0
+}
+.card_div h1 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 30px 
+}
+.card_div p { 
+margin-bottom: 30px
+}
+
+/* newsletter */
+.newsletter{
+width: 100%;
+background-color: #e2e2e2;
+text-align: center;
+padding: 5px;
+margin-bottom: 3%;
+}
+.sign_up{
+width: 25%;
+margin: auto;
+}
+.sign_up h1{
+width: 100%;
+position: relative;
+}
+.input_form{width: 65%;border-style: none;border-bottom: 1px solid #000;}
+.fa-arrow-right:before {
+content: "\f061";
+position: absolute;
+bottom: 1px;
+right: -95px;
+}
+.card_div img:hover{ 
+transform: translateY(-20px);
+transition: 1s all ease-in-out;
+}
+.btn{
+    margin: -59px;
+    border: 1px solid #000;
+    padding: 8px 15px;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-family: serif;
+    font-weight: bold;
+}
+.sign_up i{
+position: absolute;
+}
+/* card design 2nd part */
+.card2{
+width: 60%;
+margin-left: 20%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.card2_div{
+width: 49% 
+}
+.card2_div img{
+width:100%;
+box-shadow: 7px 5px 5px 0px #a19e9e;
+border-radius: 5px;
+}
+.card2_div h5 { 
+margin: 25px 0
+}
+.card2_div h1 { 
+font-family: 'Playfair Display', serif;
+margin-bottom: 30px 
+}
+.card2_div p { 
+margin-bottom: 30px
+}
+.card2_div img:hover{ 
+transform: translateY(-20px);
+transition: 1s all ease-in-out;
+}
+.btn-primary:hover{
+    color: #fff;
+    background: #000;
+}
+/* footer */
+footer{width: 100%;background-color: #e2e2e2;display: flex;justify-content: space-between;padding: 10px 25px;margin-top: 3%;}
+.terms h1{width: 201%;text-align: center;font-size: xx-small;margin: 21px;padding: 0px;}
+.icon{
+width: 50%;
+margin: 1px;
+padding: 0px;
+display: flex;
+justify-content: space-around;   
+}
+.icon ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.icon ul li{
+font-size: 9px;
+font-family: monospace;
+justify-content: space-around;
+}
+.fa-github:before {
+content: "\f09b";
+margin: -200%;
+}
+.fa-facebook-f:before {
+content: "\f39e";
+margin: 100%;
+}
+.fa-twitter:before {
+content: "\f099";
+margin: 300%;
+}
+.fa-linkedin-in:before {
+content: "\f08c";
+margin: 600%;
+}
